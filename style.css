@@ -1,0 +1,423 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web&display=swap');
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Titillium+Web&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Roboto Slab', serif;
+  }
+
+.outer{
+    display: flex;
+}
+.sidenav{
+     padding: 1.8rem;
+   background-color: rgb(120, 197, 197);
+    height: 91vh;
+    width:10vw ;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+    display: flex;
+  flex-direction: column;
+}
+.sidenav ul li a {
+    text-decoration: none;
+    color: teal;
+}
+.sidenav ul li {
+padding-top: 4rem;
+}
+.sidenav ul li a:hover{
+    text-decoration: underline;
+    font-size:1.1rem ;
+    }
+.image-name{
+margin-top: 3rem;
+    margin-left: 0rem;
+    margin-right: 1rem;
+    
+    display: flex;
+}
+.image{
+    height: 80vh;
+    width: 40vw;
+    padding-left: 0.5rem;
+    border-radius: 230px;
+    z-index: -1;
+}
+.name{
+    height: 80vh;
+    width: 40vw;
+   padding-right: 1.5rem;
+    font-size: 2.5rem;
+    text-align: left;
+    border-radius: 54px;
+}
+.name p{
+    font-size: 1rem;
+    color: teal;
+    padding-left: 5rem;
+    padding-top: 0.9rem;
+}
+.name h1{
+    padding-left: 5rem;
+    padding-top: 6rem;
+    color: teal;
+}
+.name h3{
+    padding-left: 5rem;
+    padding-top: 2rem;
+    font-size: 2rem;
+    color: teal;
+}
+.image img{
+    margin: 40px;
+    margin-left: 80px;
+    margin-top: 65px;
+    height: 400px;
+    width: 380px;
+    border-radius: 8rem;
+    border: 0.5rem solid teal;
+}
+#about{
+    font-size: 2rem;
+    color: black;
+    font-weight: bold;
+}
+.btn{
+    margin-left: 5rem;
+    height: 2rem;
+    width: 6rem;
+    border-radius: 5px;
+    border: 2px solid teal;
+}
+.btn:hover{
+    background-color: teal;
+    cursor: pointer;
+}
+.btn a:hover{
+   color: white;
+   }
+.btn a {
+    text-decoration: none;
+    color: teal;
+}
+.main-content{
+    height: 83vh;
+    margin-left: 200px;
+}
+.aboutpage{
+    display: flex;
+    margin: 40px;
+   }
+.aboutpara{
+    height: 83vh;
+    width: 55vw;
+    }
+ #about{
+    font-size: 2.5rem;
+    color: teal;
+    font-weight: bolder;
+}
+.aboutimg{
+    height: 83vh;
+    width: 55vw;
+   }
+.aboutimg img{
+    height: 40vh;
+    width: 35vw;
+}
+.aboutpara p{
+    padding-top: 2rem;
+    color: teal;
+}
+.aboutimg img{
+     margin: 3rem;
+     height: 60vh;
+     width: 40vw;
+     border: 0.8rem solid teal;
+     border-radius: 3rem;
+}
+.contactform{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.formleft{
+   
+    height: 83vh;
+    width: 55vw;
+    }
+.formright{
+   height: 83vh;
+    width: 55vw;
+    }
+.formdiv{
+    background-color: rgb(172, 211, 211);
+    height: 64vh;
+    width: 22vw;
+   margin-top: 1rem;
+   margin-left: 8rem;
+   color: teal;
+   border-radius: 34px;
+}
+.formleft h1{
+    font-size: 2.5rem;
+    color: teal;
+    font-weight: bolder;
+    margin-top: 2rem;
+    margin-left: 8rem;
+}
+.formdiv{
+   padding: 1rem;
+    text-align: left;
+    padding-left: 2rem;
+    box-shadow: 4px 4px 8px  rgb(172, 211, 211);
+}
+.formdiv:hover{
+    box-shadow: 2px 2px 4px teal;
+}
+.email{
+    padding-left: 0.7rem;
+    padding-top: 1.5rem;
+}
+.pass{
+    padding-left: 0.7rem;
+    padding-top: 1.5rem;
+}
+.formbtn{
+    margin-top: 2rem;
+    margin-left: 7rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 11px;
+    border: 2px solid teal;
+    color: teal;
+}
+.formbtn:hover{
+    color: white;
+    background-color: teal;
+}
+#emailpara{
+    margin-top: 2rem;
+    font-size: 0.8rem;
+}
+.form-control{
+    border-radius: 12px;
+    height: 2rem;
+    border: 2px solid teal;
+    text-align: center;
+}
+.formright h1{
+    font-size: 6rem;
+    color: teal;
+    font-weight: bolder;
+    margin-left: 2rem;
+}
+.formright p{
+    margin-left: 2rem;
+    margin-top: 2rem;
+    color: teal;
+}
+#suggestions{
+    color: teal;
+    border: 2px solid teal;
+    margin-top: 1rem;
+    border-radius: 15px;
+    padding-left: 0.5rem;
+    padding-top: 1rem;
+}
+.suggestbtn{
+    margin-top: 1rem;
+    margin-left: 7rem;
+    height: 2rem;
+    width: 5rem;
+    border-radius: 11px;
+    border: 2px solid teal;
+    color: teal;
+}
+.suggestbtn:hover{
+    color: white;
+    background-color: teal;
+}
+#suggestions:hover{
+    box-shadow: 3px 3px 6px teal;
+}
+.form-control:hover{
+    box-shadow: 2px 2px 3px teal;
+}
+.education{
+margin: 0px;
+padding: 0px;
+display: flex;
+}
+.education-left{
+    background-color: rgb(232, 238, 238);
+    color: teal;
+    height: 100vh;
+    width: 50vw;
+    border-radius: 15px;
+}
+.education-right{
+    color: teal;
+    height: 100vh;
+    width: 50vw;
+}
+#edu-heading{
+    font-size: 6rem;
+    color: teal;
+    margin-left: 12rem;
+    margin-top: 3rem;
+}
+.quote{
+    margin-top: 1rem;
+    margin-left:12rem ;
+    font-size: 2rem;
+}
+.education-right p{
+    margin-top: 2rem;
+    margin-left: 1rem;
+}
+.education-right h1{
+    margin-left: 1rem;
+}
+.skills{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.skill-left{
+    height: 100vh;
+    width: 50vw;
+   
+}
+.skill-right{
+    height: 100vh;
+    width: 50vw;
+   
+   color: teal;
+   
+}
+.skill-left img{
+    height: 65vh;
+    width: 45vw;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 8px;
+    box-shadow: 3px 3px 6px teal;
+}
+.skill-left h1{
+    font-size: 4rem;
+    color: teal;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.skill-right p{
+    margin-top: 2rem;
+}
+.skill-right h1{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.skill-right ul li{
+    margin-left: 2rem;
+}
+.skill-right h4{
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+.projects{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+}
+.project-left{
+    height: 100vh;
+    width: 50vw;
+  
+   color: teal;
+  
+}
+.project-right{
+    height: 100vh;
+    width: 50vw;
+    color: teal;
+   }
+.project-left h1{
+    font-size: 4rem;
+    margin-top: 2rem;
+   margin-left: 2rem;
+}
+.project-left p{
+    margin-top: 2rem;
+   margin-left: 2rem;
+}
+.project-left h3{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.project-left h2{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+.project-left p b a{
+    color: teal;
+    text-decoration: none;
+}
+.project-left p b a:hover{
+   
+    text-decoration: underline;
+}
+.project-right img{
+    height: 44vh;
+    width: 46vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 1.5rem;
+    border-radius: 12px;
+    border:2px solid teal;
+    margin-top: 0.6rem;
+}
+.project-right h2{
+    margin-top: 0.8rem;
+    margin-left: 2rem;
+}
+.icons ul {
+    display: flex;
+   
+}
+.icons ul li{
+    padding-left: 0.5rem;
+}
+.icons ul li a i{
+    font-size: 1.4rem;
+}
+.icons ul li a i:hover{
+    font-size: 1.6rem;
+    text-decoration: underline;
+}
+.hamburger{
+   cursor: pointer;
+ display: flex;                              /* Idhar mere ko ye jo cross aur menu ke sign hain wo left mein move krne hain sidenav ke
+                                                jisse jb m menu pr click krungi toh sidenav open ho aur jb cross pr click krun toh wo remove ho jaye.*/ 
+  margin-top: 20px;
+ margin-right: 10px;
+ 
+}
+  .hamburger img{
+    top: 10px;
+    left: 2px;
+   
+  }
+  
+  .cross{
+    margin-left: 80px;
+    
+  }
+
+
